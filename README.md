@@ -9,4 +9,6 @@ You don't need to make changes to the structure of Laravel. Just copy below htac
     RewriteBase /
     RewriteRule ^$ public/index.php [L]
     RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
-</IfModule>```
+</IfModule>
+
+```
